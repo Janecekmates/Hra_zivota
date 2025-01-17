@@ -222,7 +222,7 @@ function updateView() {
 // initialize
 function initialize() {
   if (isMobile()) {
-    rows = cols = 10; // Very small grid for mobile
+    rows = cols = 8; // Smaller grid for mobile
   }
   createTable();
   initializeGrids();
